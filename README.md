@@ -1,4 +1,37 @@
 # chess-game-
-Two-Player Chess in Python ♟️This project is a functional, two-player chess game built using Python and the Pygame library. It provides a graphical interface where two players can compete on a standard 8x8 chessboard.🚀 FeaturesFull Chessboard Implementation: Includes all standard pieces (Rooks, Knights, Bishops, Kings, Queens, and Pawns) in their correct starting positions.Two-Player Mode: Supports local play where players take turns moving pieces.Game Loop & Timer: Utilizes pygame.time.Clock to maintain a smooth 60 FPS (frames per second) experience.Event Handling: Detects mouse clicks for selection and keyboard inputs (e.g., Enter to reset the game after a win).🛠️ Technical StackLanguage: PythonEngine/Library: PygameRendering: Pygame screen display with custom font handling.💻 RequirementsTo run this game, you need to have Python installed along with the pygame library.Install Pygame:Bashpip install pygame
-Run the Game:Bashpython Chess.py
-🎮 How to PlaySelecting a Piece: Click on a piece you wish to move.Moving: Select a valid destination square on the board.Resetting: If a game ends, press the Enter key to reset the board to the initial starting positions.📁 Code StructureInitialization: Sets the game window size ($1000 \times 900$) and loads necessary fonts.Piece Arrays: Stores piece names and their coordinates as tuples in lists (e.g., white_pieces and white_locations).Game Loop: The core logic that processes Pygame events, updates piece positions, and redraws the board state.
+
+Two-Player Chess in Python ♟️
+This project is a functional, two-player chess game built using Python and the Pygame library. It provides a graphical interface where two players can compete on a standard 8x8 chessboard.
+
+🚀 Features
+Full Chessboard Implementation:
+Includes all standard pieces (Rooks, Knights, Bishops, Kings, Queens, and Pawns) in their correct starting positions.
+Two-Player Mode:
+Supports local play where players take turns moving pieces.
+Game Loop & Timer:
+Utilizes pygame.time.Clock to maintain a smooth 60 FPS (frames per second) experience.
+Event Handling:
+Detects mouse clicks for selection and keyboard inputs (e.g., Enter to reset the game after a win).
+🛠️ Technical 
+StackLanguage: Python
+Engine/Library: Pygame
+Rendering: Pygame screen display with custom font handling.
+
+💻 Requirements
+To run this game, you need to have Python installed along with the pygame library.
+Install Pygame: 
+Bash "pip install pygame"
+Run the Game:
+Bash "python Chess.py"
+
+🎮 How to Play
+Selecting a Piece: Click on a piece you wish to move.
+Moving: 
+Select a valid destination square on the board.
+Resetting: 
+If a game ends, press the Enter key to reset the board to the initial starting positions.
+
+📁 Code Structure
+Initialization: Sets the game window size ($1000 \times 900$) and loads necessary fonts.
+Piece Arrays: Stores piece names and their coordinates as tuples in lists (e.g., white_pieces and white_locations).
+Game Loop: The core logic that processes Pygame events, updates piece positions, and redraws the board state.
